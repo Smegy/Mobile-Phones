@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "mobilephone:circuit_board"
+  },
+  "base": {
+    "item": "mobilephone:rubber"
+  },
+  "addition": {
+    "item": "mobilephone:wire"
+  },
+  "result": {
+    "item": "mobilephone:wired_board"
+  }
+}

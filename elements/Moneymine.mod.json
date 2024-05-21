@@ -1,0 +1,37 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 132,
+    "height": 193,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "name": "button_mine_money",
+          "text": "Mine Money",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Minemoneyscript"
+          },
+          "width": 77,
+          "height": 20,
+          "x": 172,
+          "y": 62
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "mobilephone:custom/rubber",
+  "textures": {
+    "0": "mobilephone:block/metaltexture",
+    "particle": "mobilephone:item/rubber"
+  }
+}

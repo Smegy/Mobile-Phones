@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mobilephone:metal_ingot"
+    },
+    {
+      "item": "mobilephone:phonecase"
+    },
+    {
+      "item": "mobilephone:wire"
+    },
+    {
+      "item": "mobilephone:screen"
+    },
+    {
+      "item": "mobilephone:battery"
+    },
+    {
+      "item": "mobilephone:wired_board"
+    },
+    {
+      "item": "mobilephone:antenna"
+    },
+    {
+      "item": "mobilephone:metal_ingot"
+    }
+  ],
+  "result": {
+    "item": "mobilephone:mobile_phone_1",
+    "count": 1
+  }
+}

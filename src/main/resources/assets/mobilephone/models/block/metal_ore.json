@@ -1,0 +1,9 @@
+{
+  "parent": "mobilephone:custom/metal_ore2",
+  "textures": {
+    "all": "mobilephone:block/metaltexture",
+    "particle": "mobilephone:block/metaltexture",
+    "0": "mobilephone:block/metaltexture"
+  },
+  "render_type": "solid"
+}

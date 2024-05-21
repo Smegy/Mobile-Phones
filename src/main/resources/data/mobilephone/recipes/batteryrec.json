@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ddd"
+  ],
+  "key": {
+    "a": {
+      "item": "mobilephone:metal_ingot"
+    },
+    "b": {
+      "item": "mobilephone:wire"
+    },
+    "c": {
+      "item": "mobilephone:circuit_board"
+    },
+    "d": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "mobilephone:battery",
+    "count": 1
+  }
+}

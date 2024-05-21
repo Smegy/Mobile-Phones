@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "mobilephone:metal_ingot"
+    }
+  },
+  "result": {
+    "item": "mobilephone:antenna",
+    "count": 1
+  }
+}

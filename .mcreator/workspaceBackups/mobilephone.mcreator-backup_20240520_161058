@@ -1,0 +1,752 @@
+{
+  "mod_elements": [
+    {
+      "name": "DefaultDesktop",
+      "type": "gui",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "default_desktop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mobilephone/network/DefaultDesktopButtonMessage.java",
+          "src/main/java/net/mcreator/mobilephone/client/gui/DefaultDesktopScreen.java",
+          "src/main/java/net/mcreator/mobilephone/world/inventory/DefaultDesktopMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "MobilePhone1",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mobile_phone_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mobilephone/models/item/mobile_phone_1.json",
+          "src/main/java/net/mcreator/mobilephone/item/MobilePhone1Item.java",
+          "src/main/java/net/mcreator/mobilephone/item/inventory/MobilePhone1InventoryCapability.java"
+        ]
+      }
+    },
+    {
+      "name": "Moneymine",
+      "type": "gui",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moneymine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mobilephone/client/gui/MoneymineScreen.java",
+          "src/main/java/net/mcreator/mobilephone/network/MoneymineButtonMessage.java",
+          "src/main/java/net/mcreator/mobilephone/world/inventory/MoneymineMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Minemoneyscript",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minemoneyscript",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mobilephone/procedures/MinemoneyscriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Opengitter",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opengitter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mobilephone/procedures/OpengitterProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gittergui",
+      "type": "gui",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gittergui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mobilephone/world/inventory/GitterguiMenu.java",
+          "src/main/java/net/mcreator/mobilephone/client/gui/GitterguiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "OpenMoneyMaker",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_money_maker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mobilephone/procedures/OpenMoneyMakerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cheatmenu",
+      "type": "gui",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheatmenu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mobilephone/world/inventory/CheatmenuMenu.java",
+          "src/main/java/net/mcreator/mobilephone/client/gui/CheatmenuScreen.java",
+          "src/main/java/net/mcreator/mobilephone/network/CheatmenuButtonMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Moneyminecheatmenu",
+      "type": "gui",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moneyminecheatmenu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mobilephone/world/inventory/MoneyminecheatmenuMenu.java",
+          "src/main/java/net/mcreator/mobilephone/client/gui/MoneyminecheatmenuScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Setmoneyminebool",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setmoneyminebool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mobilephone/procedures/SetmoneymineboolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Opencheatmenu",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opencheatmenu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mobilephone/procedures/OpencheatmenuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Openmoneyminecheatmenu",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "openmoneyminecheatmenu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mobilephone/procedures/OpenmoneyminecheatmenuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MetalIngot",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mobilephone/item/MetalIngotItem.java",
+          "src/main/resources/assets/mobilephone/models/item/metal_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "MetalOre",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mobilephone/worldgen/placed_feature/metal_ore.json",
+          "src/main/resources/assets/mobilephone/models/block/metal_ore.json",
+          "src/main/resources/data/mobilephone/worldgen/configured_feature/metal_ore.json",
+          "src/main/resources/data/mobilephone/loot_tables/blocks/metal_ore.json",
+          "src/main/resources/data/mobilephone/forge/biome_modifier/metal_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/mobilephone/block/MetalOreBlock.java",
+          "src/main/resources/assets/mobilephone/models/item/metal_ore.json",
+          "src/main/resources/assets/mobilephone/blockstates/metal_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Phonecase",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phonecase",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mobilephone/models/item/phonecase.json",
+          "src/main/java/net/mcreator/mobilephone/item/PhonecaseItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Screen",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "screen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mobilephone/item/ScreenItem.java",
+          "src/main/resources/assets/mobilephone/models/item/screen.json"
+        ]
+      }
+    },
+    {
+      "name": "Battery",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battery",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mobilephone/item/BatteryItem.java",
+          "src/main/resources/assets/mobilephone/models/item/battery.json"
+        ]
+      }
+    },
+    {
+      "name": "CircuitBoard",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "circuit_board",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mobilephone/models/item/circuit_board.json",
+          "src/main/java/net/mcreator/mobilephone/item/CircuitBoardItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Antenna",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antenna",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mobilephone/item/AntennaItem.java",
+          "src/main/resources/assets/mobilephone/models/item/antenna.json"
+        ]
+      }
+    },
+    {
+      "name": "Phonerecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phonerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mobilephone/recipes/phonerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PhoneCaseTemplate",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phone_case_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mobilephone/models/item/phone_case_template.json",
+          "src/main/java/net/mcreator/mobilephone/item/PhoneCaseTemplateItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Fishing",
+      "type": "loottable",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fishing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mobilephone/loot_tables/gameplay/fishing.json"
+        ]
+      }
+    },
+    {
+      "name": "Shipwreck",
+      "type": "loottable",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shipwreck",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mobilephone/loot_tables/chests/shipwreck_treasure.json"
+        ]
+      }
+    },
+    {
+      "name": "Pcrec",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pcrec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mobilephone/recipes/pcrec.json"
+        ]
+      }
+    },
+    {
+      "name": "Screenrecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "screenrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mobilephone/recipes/screenrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Battersy",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "battersy",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mobilephone/recipes/batteryrec.json"
+        ]
+      }
+    },
+    {
+      "name": "CircuitBoardRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "circuit_board_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mobilephone/recipes/circuit_board_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Antennarecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antennarecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mobilephone/recipes/antennarecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Wire",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mobilephone/models/item/wire.json",
+          "src/main/java/net/mcreator/mobilephone/item/WireItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Rubber",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mobilephone/item/RubberItem.java",
+          "src/main/resources/assets/mobilephone/models/item/rubber.json"
+        ]
+      }
+    },
+    {
+      "name": "WiredBoard",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wired_board",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mobilephone/models/item/wired_board.json",
+          "src/main/java/net/mcreator/mobilephone/item/WiredBoardItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Wirerecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wirerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mobilephone/recipes/wirerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Wiredboardrecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wiredboardrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mobilephone/recipes/wiredboardrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "MobilePhone",
+      "type": "tab",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mobile_phone",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Cyborg",
+      "type": "livingentity",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyborg",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mobilephone/client/renderer/CyborgRenderer.java",
+          "src/main/resources/assets/mobilephone/models/item/cyborg_spawn_egg.json",
+          "src/main/java/net/mcreator/mobilephone/entity/CyborgEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "CyborgDesktop",
+      "type": "gui",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyborg_desktop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/mobilephone/network/CyborgDesktopButtonMessage.java",
+          "src/main/java/net/mcreator/mobilephone/client/gui/CyborgDesktopScreen.java",
+          "src/main/java/net/mcreator/mobilephone/world/inventory/CyborgDesktopMenu.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "moneymined",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "hasmoneymine",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "hascheater",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "hasshop",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "hascloudstorage",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:MetalOre"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:MetalOre"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "gui.mobilephone.default_desktop.button_empty1": "",
+      "gui.mobilephone.gittergui.label_moneymaker": "MoneyMaker",
+      "gui.mobilephone.default_desktop.button_empty2": "",
+      "gui.mobilephone.default_desktop.label_dev_tools": "dev tools",
+      "gui.mobilephone.gittergui.button_empty": "",
+      "gui.mobilephone.moneyminecheatmenu.button_empty": "",
+      "item.mobilephone.circuit_board": "Board",
+      "gui.mobilephone.gittergui.label_gitter": "Gitter",
+      "block.mobilephone.metal_ore": "Metal Ore",
+      "gui.mobilephone.gittergui.label_template1": "Shop",
+      "item.mobilephone.phonecase": "Phonecase",
+      "gui.mobilephone.gittergui.label_template": "Cheat",
+      "gui.mobilephone.moneyminecheatmenu.button_empty1": "",
+      "item.mobilephone.cyborg_spawn_egg": "Cyborg Spawn Egg",
+      "gui.mobilephone.cheatmenu.label_shop_cheats": "shop cheats",
+      "gui.mobilephone.moneymine.button_mine_money": "Mine Money",
+      "item.mobilephone.metal_ingot": "Metal",
+      "item.mobilephone.wired_board": "Wired Board",
+      "gui.mobilephone.default_desktop.label_empty": "Shop",
+      "item.mobilephone.rubber": "Rubber",
+      "gui.mobilephone.cyborg_desktop.button_moneymine": "MoneyMine",
+      "gui.mobilephone.default_desktop.button_empty": "",
+      "gui.mobilephone.moneyminecheatmenu.label_setmoney": "setmoney",
+      "item.mobilephone.battery": "Battery",
+      "gui.mobilephone.cheatmenu.label_empty": "moneymine cheats",
+      "item.mobilephone.screen": "Screen",
+      "gui.mobilephone.gittergui.label_cloud": "Cloud",
+      "gui.mobilephone.default_desktop.label_moneymine": "MoneyMine",
+      "item.mobilephone.mobile_phone_1": "Mobile Phone 1",
+      "entity.mobilephone.cyborg": "Cyborg",
+      "gui.mobilephone.default_desktop.label_gitter": "Gitter",
+      "gui.mobilephone.cheatmenu.button_empty": "",
+      "gui.mobilephone.default_desktop.button_cheater": "dev tools",
+      "item_group.mobilephone.mobile_phone": "Mobile Phone",
+      "gui.mobilephone.moneyminecheatmenu.label_phonemenu": "phonemenu",
+      "item.mobilephone.phone_case_template": "Phone Case Template",
+      "gui.mobilephone.cheatmenu.button_empty1": "",
+      "item.mobilephone.wire": "Wire",
+      "gui.mobilephone.gittergui.button_empty1": "",
+      "gui.mobilephone.gittergui.button_empty2": "",
+      "item.mobilephone.antenna": "Antenna",
+      "gui.mobilephone.gittergui.button_empty3": ""
+    },
+    "cs_cz": {
+      "gui.mobilephone.default_desktop.button_empty1": "",
+      "gui.mobilephone.gittergui.label_moneymaker": "MoneyMaker",
+      "gui.mobilephone.default_desktop.button_empty2": "",
+      "gui.mobilephone.default_desktop.label_dev_tools": "dev tools",
+      "gui.mobilephone.gittergui.button_empty": "",
+      "gui.mobilephone.moneyminecheatmenu.button_empty": "",
+      "item.mobilephone.circuit_board": "Circuit Board",
+      "gui.mobilephone.gittergui.label_gitter": "Gitter",
+      "block.mobilephone.metal_ore": "Metal Ore",
+      "gui.mobilephone.gittergui.label_template1": "template",
+      "item.mobilephone.phonecase": "Phonecase",
+      "gui.mobilephone.gittergui.label_template": "Cheat",
+      "gui.mobilephone.moneyminecheatmenu.button_empty1": "",
+      "item.mobilephone.cyborg_spawn_egg": "Cyborg Spawn Egg",
+      "gui.mobilephone.cheatmenu.label_shop_cheats": "shop cheats",
+      "gui.mobilephone.moneymine.button_mine_money": "Mine Money",
+      "item.mobilephone.metal_ingot": "Metal",
+      "item.mobilephone.wired_board": "Wired Board",
+      "gui.mobilephone.default_desktop.label_empty": "Shop",
+      "item.mobilephone.rubber": "Rubber",
+      "gui.mobilephone.cyborg_desktop.button_moneymine": "MoneyMine",
+      "gui.mobilephone.default_desktop.button_empty": "",
+      "gui.mobilephone.moneyminecheatmenu.label_setmoney": "setmoney",
+      "item.mobilephone.battery": "Battery",
+      "gui.mobilephone.cheatmenu.label_empty": "moneymine cheats",
+      "item.mobilephone.screen": "Screen",
+      "gui.mobilephone.gittergui.label_cloud": "Cloud",
+      "gui.mobilephone.default_desktop.label_moneymine": "MoneyMine",
+      "item.mobilephone.mobile_phone_1": "Mobile Phone 1",
+      "entity.mobilephone.cyborg": "Cyborg",
+      "gui.mobilephone.default_desktop.label_gitter": "Gitter",
+      "gui.mobilephone.cheatmenu.button_empty": "",
+      "gui.mobilephone.default_desktop.button_cheater": "cheater",
+      "item_group.mobilephone.mobile_phone": "Mobile Phone",
+      "gui.mobilephone.moneyminecheatmenu.label_phonemenu": "phonemenu",
+      "item.mobilephone.phone_case_template": "Phone Case Template",
+      "gui.mobilephone.cheatmenu.button_empty1": "",
+      "item.mobilephone.wire": "Wire",
+      "gui.mobilephone.gittergui.button_empty1": "",
+      "gui.mobilephone.gittergui.button_empty2": "",
+      "item.mobilephone.antenna": "Antenna",
+      "gui.mobilephone.gittergui.button_empty3": ""
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mobilephone",
+    "modName": "MobilePhone",
+    "version": "1.0.0",
+    "author": "uvojt, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.mobilephone"
+  },
+  "mcreatorVersion": 202400117319
+}

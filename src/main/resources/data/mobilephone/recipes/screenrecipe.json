@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cbc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "mobilephone:wire"
+    },
+    "b": {
+      "item": "minecraft:glass"
+    },
+    "c": {
+      "item": "mobilephone:circuit_board"
+    }
+  },
+  "result": {
+    "item": "mobilephone:screen",
+    "count": 1
+  }
+}
